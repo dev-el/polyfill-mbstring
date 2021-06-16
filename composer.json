@@ -1,11 +1,15 @@
 {
-    "name": "symfony/polyfill-mbstring",
+    "name": "dev-el/polyfill-mbstring",
     "type": "library",
     "description": "Symfony polyfill for the Mbstring extension",
     "keywords": ["polyfill", "shim", "compatibility", "portable", "mbstring"],
     "homepage": "https://symfony.com",
     "license": "MIT",
     "authors": [
+	{
+            "name": "Jesiel Emerim Schardosim",
+            "email": "jesiel.schardosim@sisdado.com.br"
+        },
         {
             "name": "Nicolas Grekas",
             "email": "p@tchwork.com"
@@ -16,7 +20,6 @@
         }
     ],
     "require": {
-        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": { "Symfony\\Polyfill\\Mbstring\\": "" },
